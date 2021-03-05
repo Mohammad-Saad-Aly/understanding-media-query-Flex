@@ -1,0 +1,23 @@
+/* @media screen and (max-width: 600px){
+    img{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    img{
+        width: 100px;
+    }
+} */
+
+.one,.two,.three{
+    border: 2px solid green;
+    width: 200px;
+    padding: 10px;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
